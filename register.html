@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,7 +33,7 @@
                     <div class="card-body py-5">
                         <img class="d-none" src="assets/img/ticket_logo.png" style="max-width: 48px;" alt="img"
                             srcset="">
-                        <h1 class="fw-bold login-title text-center">B2B LOGIN</h1>
+                        <h1 class="fw-bold login-title text-center">B2B Signup</h1>
                         <!-- <h2 class="h4 theme-color fw-bold mb-4"> Log in </h2> -->
                         <div class=" small mb-4">
                             <div>
@@ -47,20 +47,45 @@
 
                             <div class="mx-auto" style="max-width: 340px;">
                                 <div class="mb-4">
-                                    <label for="login_id" class="sound_only"> Member ID </label>
+                                   
                                     <input type="text" name="mb_id" id="login_id" required=""
-                                        class="w-100 required login-input border px-3 p-1 rounded-2" maxlength="20"
-                                        placeholder="id">
+                                        class="w-100 required border px-3 p-1 rounded-2" maxlength="20"
+                                        placeholder="Full Name">
+                                </div>
+                               
+                                <div class="mb-4">
+                                    <input type="number" name="mb_id" id="login_id" required=""
+                                        class="w-100 required border px-3 p-1 rounded-2" maxlength="20"
+                                        placeholder="Mobile Number">
                                 </div>
                                 <div class="mb-4">
-                                    <label for="login_pw" class="sound_only"> password </label>
+                                   
+                                    <input type="email" name="mb_id" id="login_id" required=""
+                                        class="w-100 required border px-3 p-1 rounded-2" maxlength="20"
+                                        placeholder="Email id">
+                                </div>
+                                <div class="mb-4">
+                                    
                                     <input type="password" name="mb_password" id="login_pw" required=""
                                         class="w-100 required login-input border px-3 p-1 rounded-2" maxlength="20"
                                         placeholder="password">
                                 </div>
+                                <div class="mb-4">
+                                    <input type="text" name="mb_id" id="login_id" required=""
+                                        class="w-100 required border px-3 p-1 rounded-2" maxlength="20"
+                                        placeholder="Full Address">
+                                </div>
+                                <div class="mb-4">
+                                    <select name="" id="" class="w-100 required border px-3 p-2 rounded-2">
+                                        <option value="" selected disabled>Select Type</option>
+                                        <option value="">Retailer</option>
+                                        <option value="">Partner</option>
+                                    </select>
+                                   
+                                </div>
 
                                 <div class="d-grid mb-4">
-                                    <button type="submit" class="primary-btn btn btn-warning py-2"> Log in </button>
+                                    <button type="submit" class="primary-btn btn btn-warning py-2"> Register</button>
                                 </div>
 
                                 <div class="text-secondary small mb-4 text-center">
@@ -68,13 +93,13 @@
                                     |
                                     <a class="text-secondary text-decoration-none" href=""> Find Password </a>
                                     |
-                                    <a class="text-secondary text-decoration-none" href=""> Help </a>
+                                    <a class="text-secondary text-decoration-none" href="#"> Help </a>
                                 </div>
                             </div>
 
                             <div class="small mb-0 text-center">
-                                Not a member?
-                                <a href="register.html" class="text-decoration-none"> Sign up
+                                Already a member?
+                                <a href="login.html" class="text-decoration-none"> Sign In
                                 </a>
                             </div>
                         </form>
