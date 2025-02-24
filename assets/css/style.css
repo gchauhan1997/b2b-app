@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+KR:wght@200..900&family=Oswald:wght@200..700&display=swap');
+
+
+.primary-color {
+    color: #0194FE;
+}
+
+body {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    background-image: url("../img/bg-shadow.png");
+    background-size: cover;
+    background-position: center;
+}
+body .carousel-caption{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.hero-section {
+    height: 85vh;
+    background-image: url("../img/banner-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel {height: 70vh;overflow: hidden;}
+.carousel img {object-fit: cover;}
+
+@media(max-width:575px){
+    .hero-section {
+        height: 90vh;
+       
+    }
+}
+
+img {width: 100%;max-width: 100%;}
+
+.our-brand img {
+    max-width: 75%;
+}
+footer a:hover {color: blue !important;}
+
+a {text-decoration: none;}
+
+.login-left {
+    background: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
